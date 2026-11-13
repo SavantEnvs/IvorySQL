@@ -1,0 +1,9 @@
+project: savantenvs/IvorySQL
+target: oracle_query_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/oracle_query_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/oracle_query_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/oracle_query_fuzzer/oracle_query_fuzzer.dict

@@ -1,0 +1,1 @@
+DECLARE v NUMBER := 1; BEGIN FOR i IN 1..3 LOOP v := v + i; END LOOP; END;

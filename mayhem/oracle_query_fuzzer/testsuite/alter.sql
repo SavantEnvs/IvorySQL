@@ -1,0 +1,1 @@
+ALTER TABLE emp ADD (comm NUMBER(7,2));

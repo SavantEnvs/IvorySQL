@@ -1,0 +1,1 @@
+CREATE TABLE emp (empno NUMBER(4) PRIMARY KEY, ename VARCHAR2(10), job VARCHAR2(9), sal NUMBER(7,2), hiredate DATE);
